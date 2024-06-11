@@ -138,6 +138,10 @@ button.accordion:hover {
     color: #505050;
 }
 
+.panel h4 {
+    text-decoration: underline;
+}
+
 .flex {
   /*display: flex;*/
   flex-wrap: wrap;
@@ -175,6 +179,10 @@ button.accordion:hover {
 
 .rotate {
   transform: rotate(180deg);
+}
+
+.header-image {
+  height: 2.5rem; /* Adjust this value to match the line height of "Monika i Dominik" */
 }
 
 /* Responsive Design */
