@@ -71,8 +71,6 @@ body div.panel {
   margin: 5px 0;
   font-family: 'Muli', sans-serif;
   font-weight: 300;
-
-
 }
 
 .footer-content p {
@@ -143,7 +141,6 @@ button.accordion:hover {
 }
 
 .flex {
-  /*display: flex;*/
   flex-wrap: wrap;
 }
 
@@ -161,7 +158,6 @@ button.accordion:hover {
 .hotel-section h3 {
   margin-top: 0;
 }
-
 
 .guest-list ul {
   list-style-type: none;
@@ -185,7 +181,15 @@ button.accordion:hover {
   height: 2.5rem; /* Adjust this value to match the line height of "Monika i Dominik" */
 }
 
-/* Responsive Design */
+.panel ul li .vege {
+    color: #4CAF50;
+}
+
+.panel ul li .leaf {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
 @media (max-width: 768px) {
   .flex {
     flex-direction: column;
