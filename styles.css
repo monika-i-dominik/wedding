@@ -181,7 +181,11 @@ button.accordion:hover {
   height: 2.5rem; /* Adjust this value to match the line height of "Monika i Dominik" */
 }
 
-.panel ul li .vege {
+/* .panel ul li .vege {
+    color: #4CAF50;
+} */
+
+.panel span.vege-text {
     color: #4CAF50;
 }
 
